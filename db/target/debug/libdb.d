@@ -1,0 +1,1 @@
+/Users/peter/Documents/bootcamp/projects/learning_rust/db/target/debug/libdb.rlib: /Users/peter/Documents/bootcamp/projects/learning_rust/db/src/column_types.rs /Users/peter/Documents/bootcamp/projects/learning_rust/db/src/conn.rs /Users/peter/Documents/bootcamp/projects/learning_rust/db/src/lib.rs /Users/peter/Documents/bootcamp/projects/learning_rust/db/src/schema_reader.rs

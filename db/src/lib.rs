@@ -8,3 +8,6 @@ mod tests {
 
 pub mod conn;
 pub mod schema_reader;
+pub mod column_types;
+pub mod graphql_types;
+pub mod db_column;
