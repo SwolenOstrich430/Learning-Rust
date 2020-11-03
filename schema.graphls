@@ -1,0 +1,37 @@
+type Conversations
+
+Conversations {
+	id: ID
+}
+
+type Messages
+
+Messages {
+	id: ID
+	text: String
+	time_sent: timestamp!
+	conversation_id: Int
+	sender_id: Int
+}
+
+type Users
+
+Users {
+	id: ID
+	email: String!
+	first_name: String!
+	last_name: String!
+	username: String!
+	roles: String!
+	active: Int!
+	password: String!
+	salt: String!
+}
+
+type Users_Conversations
+
+Users_Conversations {
+	conversation_id: ID
+	user_id: ID
+}
+

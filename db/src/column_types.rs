@@ -10,7 +10,7 @@ impl fmt::Display for InvalidColumnTypeError {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Copy, Clone)]
 pub enum ColumnType {
     CHAR, 
     VARCHAR, 
